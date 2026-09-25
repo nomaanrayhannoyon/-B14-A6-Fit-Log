@@ -3,7 +3,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <section className="bg-[#121212] text-white py-16 px-6 lg:px-16">
+    <section className="bg-[#121212] text-white py-16 px-6 lg:px-16 rounded-3xl mx-4 sm:mx-8 my-6 border border-zinc-800 overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
         
         {/* Left Side: Text and CTA Button */}
