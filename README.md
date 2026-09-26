@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏋️‍♂️ FitLog — Workout Library & Planner
 
-## Getting Started
+FitLog is a dark, no-nonsense gym companion built with Next.js. It allows users to browse a comprehensive workout library, view detailed instructions, and manage their daily fitness plans and saved workouts with persistent storage.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Next.js** (App Router & Dynamic Routing)
+* **React** (Hooks: `useState`, `useEffect`)
+* **Tailwind CSS** (Styling & Responsive Design)
+* **TypeScript** (Type Safety)
+* **Browser LocalStorage** (Data Persistence)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Key Features
 
-## Learn More
+1. **Comprehensive Workout Library:** Displays workouts covering major muscle groups in a responsive 3-column grid layout with category tags, duration, ratings, and calories.
+2. **Dynamic Details Page:** Click on any workout card to navigate to its dynamic detail page (`/workout/[id]`) featuring specs, muscle groups, and action buttons.
+3. **Interactive Planner & Saved List:** Add workouts to "Today's Plan" or "Saved for later" directly from the library or details page, with real-time badge counters in the navigation bar.
+4. **Live Metrics & Dashboard (`/my-plan`):** Tracks total exercises, accumulated workout minutes, and calories burned dynamically based on your active plan.
+5. **Data Persistence:** Uses `localStorage` to ensure your today's plan and saved workouts survive page reloads.
+6. **Toast Notifications & Actions:** Instant visual feedback (toasts) when adding, removing, or marking workouts as done.
+7. **Responsive Design:** Fully optimized for mobile, tablet, and desktop viewports.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Getting Started Locally
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Follow these steps to run the project on your local machine:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repository-url>
